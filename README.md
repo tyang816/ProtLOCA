@@ -32,3 +32,17 @@ conda activate protloca
 ### Train from scratch
 
 Script example can be found at `script/`.
+
+
+## 🙌 Citation
+
+Please cite our work if you have used our code or data. We are pleased to see improvements in the subsequent work.
+
+```
+@article{tan2024protloca,
+  title={Protein Representation Learning with Sequence Information Embedding: Does it Always Lead to a Better Performance?},
+  author={Tan, Yang and Zheng, Lirong and Zhong, Bozitao and Hong, Liang and Zhou, Bingxin},
+  journal={arXiv preprint arXiv:2406.19755},
+  year={2024}
+}
+```
