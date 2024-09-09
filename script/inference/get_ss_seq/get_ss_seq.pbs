@@ -1,0 +1,21 @@
+#PBS -q huge
+#PBS -l walltime=168:00:00
+#PBS -l select=1:ncpus=1:mem=2gb
+#PBS -N get_ss
+#PBS -o /home/tanyang/workspace/subgraph/log
+#PBS -e /home/tanyang/workspace/subgraph/log
+
+source /home/tanyang/miniconda3/bin/activate /home/tanyang/miniconda3/envs/protein
+cd /home/tanyang/workspace/subgraph
+
+pdb_dir=/home/tanyang/workspace/benchmark/ProteinCollector/data/AF19M/pdb
+pdb_index_file_dir=/home/tanyang/workspace/benchmark/ProteinCollector/data/AF19M/chunks
+
+CUDA_VISIBLE_DEVICES=0 python get_ss_seq.py \
+    --pdb_dir $pdb_dir \
+    --pdb_index_file $pdb_index_file_dir/uniprot_"$index".txt \
+    --pdb_index_level 2 \
+    --num_workers 6 \
+    --out_file result/ss_seq/uniprot_"$index".json
+
+
