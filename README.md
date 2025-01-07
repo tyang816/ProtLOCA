@@ -1,6 +1,6 @@
 # Protein Representation Learning with Sequence Information Embedding: Does it Always Lead to a Better Performance?
 
-## 🚀 Introduction (ProtLOCA)
+## 🚀 Introduction (Venus-ProtLOCA/ ProtLOCA)
 
 Using structure information only for protein homology detection.
 
