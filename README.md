@@ -12,7 +12,7 @@ Using structure information only for protein homology detection.
 
 ### News
 
-- [2024.08.22] Congratulations! Our paper was accepted as a short paper at *IEEE International Conference on Bioinformatics and Biomedicine 2024 (IEEE BIBM 2024)*!
+- [2024.08.22] Congratulations! Our paper was accepted at *IEEE International Conference on Bioinformatics and Biomedicine 2024 (IEEE BIBM 2024)*!
 
 ### Paper Results
 
@@ -39,10 +39,12 @@ Script example can be found at `script/`.
 Please cite our work if you have used our code or data. We are pleased to see improvements in the subsequent work.
 
 ```
-@article{tan2024protloca,
-  title={Protein Representation Learning with Sequence Information Embedding: Does it Always Lead to a Better Performance?},
+@inproceedings{tan2024protloca,
+  title={Protein representation learning with sequence information embedding: Does it always lead to a better performance?},
   author={Tan, Yang and Zheng, Lirong and Zhong, Bozitao and Hong, Liang and Zhou, Bingxin},
-  journal={arXiv preprint arXiv:2406.19755},
-  year={2024}
+  booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={233--239},
+  year={2024},
+  organization={IEEE}
 }
 ```
